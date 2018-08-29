@@ -713,6 +713,8 @@ Coin = function () {
   this.newPosition = function () {
     this.x = Math.random() * Game.canvasWidth;
     this.y = Math.random() * Game.canvasHeight;
+    this.color='yellow';
+    this.solid=true;
   };
 
   this.newValue = function () {
